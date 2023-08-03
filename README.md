@@ -82,7 +82,7 @@ prediction is first assigned for each voxel, and then the estimated Dice score i
 obtained by computing the median Dice score between the median and each one
 of the augmentation results. Figure 2 illustrates the Dice score estimation.
 
-![Figure 2](Figure_2.jpg)  Flow diagram of the estimated Dice calculation.
+![Figure 2](Figure2.jpg)  Flow diagram of the estimated Dice calculation.
 
 If border slices information is provided (item 3 in Figure 1), the Dice estimation 
 will be performed only on slices inside the structure of interest. Here is the code
