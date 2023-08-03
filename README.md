@@ -126,7 +126,7 @@ def estimate_dice(tta_data, median_prediction, subject_id, cases_first_last_slic
     return estimated_dice
 ```
 
-References:
+**References**:
 
 [1] Specktor-Fadida B, Levchakov A, Shonberger D, Ben-Sira L, Ben-Bashat D and Joskowicz L.
 Test-time augmentation-based active learning and self-training. Accepted to MICCAI workshop
